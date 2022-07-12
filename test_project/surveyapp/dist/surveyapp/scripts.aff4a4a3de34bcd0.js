@@ -1,0 +1,1 @@
+"function"==typeof importScripts&&(importScripts("ngsw-worker.js"),addEventListener("push",function(t){console.log(t),t.notification.close(),t.waitUntil(clients.matchAll({includeUncontrolled:!0,type:"window"}).then(function(i){i.navigate("https://example.com")}))}));
